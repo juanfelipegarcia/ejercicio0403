@@ -11,6 +11,7 @@ namespace ejercicio0403
         private string ojos;
         private string color;
         private double altura;
+        private double peso;
 
         public Persona()
         {
@@ -24,6 +25,14 @@ namespace ejercicio0403
             this.ojos = ojos;
             this.color = color;
             this.altura = altura;
+        }
+
+        public Persona(string ojos, string color, double altura, double peso)
+        {
+            this.ojos = ojos;
+            this.color = color;
+            this.altura = altura;
+            this.peso = peso;
         }
 
         public string obtenerPersona()

@@ -20,7 +20,9 @@ namespace ejercicio0403
 
             //Console.WriteLine(miNumero.obtenerNumero());
 
-            Persona miNegro = new Persona("amarillos","moreno",1.55);
+            //Persona miNegro = new Persona("amarillos","moreno",1.55);
+
+            Persona miNegro = new Persona("amarillos", "moreno", 1.55, 55);
 
             //miNegro.this.ojos = "morados";
 
