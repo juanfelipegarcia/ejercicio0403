@@ -11,6 +11,7 @@ namespace prueba
         static void Main(string[] args)
         {
             Console.WriteLine("esto es una prueba de git");
+            Console.WriteLine("esto es una prueba de commit");
             Console.ReadKey();
         }
     }
